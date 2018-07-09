@@ -1,0 +1,454 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.third1 {
+  display:inline-block;
+  height: 80rem;
+  width: 100%;
+  border-top-style: outset;
+  border-top-width: 5px;
+  border-right-style: outset;
+  border-right-width: 5px;
+  border-left-style: outset;
+  border-left-width: 5px;
+  /* padding: 10rem; */
+}
+
+.slantedDiv img {
+  position: relative;
+  width: 100%
+}
+
+.slantedDiv img {
+  position: absolute;
+  width: 100%;
+  height: 33%;
+  content: '';
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom left;
+  transform: skewY(-4.5deg);
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.Circles {
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+
+.Expand {
+  padding-left: 15rem;
+  padding-top: 20rem;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #103A94
+}
+
+.Heading {
+  padding-left: 15rem;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+  color: #FFFFFF
+}
+
+.click {
+  padding-left: 15.5rem;
+  padding-top: 2rem;
+}
+
+.clicker {
+  background-color: #103A94;
+ border: none;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+ padding-left: 4rem;
+ padding-right: 4rem;
+ font-family: 'Roboto', sans-serif;
+ font-style: color: #FFFFFF;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 10px
+ }
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.top-right ul li {
+  list-style-type: none;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  margin-right: 0;
+  text-align: right;
+}
+
+.NavagationBar {
+  text-align: right;
+}
+
+a:link {
+  color: #B3EBFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #107194
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #B3EBFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-bottom: 0;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    text-align: left;
+    width: 100%
+}
+
+.click .button {
+  background-color: #107194;
+  border: none;
+  color: #FFFFFF
+  padding:12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px
+}
+
+.IPHONE {
+  padding-top: 9.6rem;
+  margin-right: 15rem;
+  top: 0;
+  transform-origin: bottom left;
+  transform: skewY(-4.5deg);
+}
+
+.Track {
+  display:inline-block;
+  padding-right: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 15rem;
+}
+
+.Manage {
+  border-top-style: none;
+  border-right-style: solid;
+  border-right-color:#B3EBFF ;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-left-color:#B3EBFF ;
+  padding-right: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 6rem;
+  display: inline-block;
+}
+
+.Sync {
+  display: inline-block;
+  padding-left: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-right: 12rem;
+}
+
+h3 {
+  font-size: 20px;
+  color:#46C6F2;
+  font-family: 'Slabo 27px', serif;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.third2 {
+  height: 65rem;
+  width: 100%;
+  background-color: #F7FEFF;
+  display:inline-block;
+  text-align:center;
+}
+
+.Title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    text-align: center;
+    width: 100%
+}
+
+.Title p {
+  font-size: 40px;
+  font-family: 'Slabo 27px', serif;
+  color:#46C6F2;
+}
+
+.Icon1 {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%
+    padding: 1.5rem;
+    margin-left: 10rem;
+}
+
+h4 {
+  font-size: 20px;
+  color: #4FD577
+  font-family: 'Slabo 27px', serif;
+}
+
+.Performance {
+  position: absolute;
+  top: 62%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  display:inline-block;
+  text-align: left;
+  padding-top: 3rem;
+  width: 100%
+  padding: 1.5rem;
+  margin-left: 10rem;
+}
+
+.Performance p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Icon2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    text-align: center;
+    padding-top: 3rem;
+    border-top-style: solid;
+    border-top-color:#B3EBFF;
+    width: 40%
+}
+
+.Icon3 {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%
+    padding: 1.5rem;
+    margin-right: 10rem;
+}
+
+.Screen {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:inline-block;
+  text-align: center;
+  padding-top: 3rem;
+  width: 30%
+}
+
+.PartOne {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+}
+
+.Featured p {
+  font-size: 40px;
+  color: #46C6F2;
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:inline-block;
+  text-align: center;
+  padding-bottom: 20px;
+  width: 40%;
+  border-bottom-style: solid;
+  border-bottom-color: #B3EBFF;
+}
+
+.PartOne .row {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  bottom: 30px;
+  left: 50px;
+}
+
+.PartOne .column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.bottom-left1 {
+    position: absolute;
+    bottom: 12px;
+    left: 30px;
+
+}
+
+.bottom-left2 {
+    position: absolute;
+    bottom: 12px;
+    left: 325px;
+}
+
+.bottom-left3 {
+    position: absolute;
+    bottom: 12px;
+    left: 630px;
+}
+
+.PartTwo {
+  width: 100%;
+  height: 30rem;
+  background-color: #46C6F2;
+}
+
+.Stats {
+  width:100%;
+  display: inline-block;
+}
+
+.Stats h1 {
+  font-size: 6rem;
+  font-family: 'Slabo 27px', serif;
+  color: #FFFFFF;
+}
+
+.Stats p {
+  font-size: 12px;
+  color: #103A94;
+}
+
+.Complete {
+  width: 100%;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  display: inline-block;
+  position: absolute;
+  top: 113%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.Certify {
+  width: 100%;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  display: inline-block;
+  position: absolute;
+  top: 113%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.Pusher {
+  position: absolute;
+  top: 118%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display:inline-block;
+  text-align: center;
+  padding-top: 3rem;
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Push {
+    background-color: #103A94;
+   border: none;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
+   font-style: color: #FFFFFF;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.PartThree {
+  width: 100%;
+  height: 10rem;
+  background-color: #000000;
+}
+.Copycat {
+  position: absolute;
+  bottom: -475px;
+  left: 30px;
+  color: #DAD8D8;
+}
+
+.Navabar {
+  position: absolute;
+  bottom: -475px;
+  right: 16px;
+  color: #DAD8D8;
+}
+
+.Navabar ul li{
+  list-style-type: none;
+  font-size: 13px;
+  font-family: 'Slabo 27px', serif;
+  color: #DAD8D8;
+  display: inline-block;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  margin-right: 0;
+  text-align: right;
+}
